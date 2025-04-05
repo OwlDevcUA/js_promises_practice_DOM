@@ -82,11 +82,11 @@ firstPromise
 secondPromise
   .then(() => {
     successMessage(`Second promise was resolved`);
-})
+  })
   .catch(() => errorMessage(`Second promise was rejected`));
 
 thirdPromise
   .then(() => {
     successMessage(`Third promise was resolved`);
-})
-  .catch(() => errorMessage(`Second promise was rejected`));
+  })
+  .catch(() => errorMessage(`Third promise was rejected`));
